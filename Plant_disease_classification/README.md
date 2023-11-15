@@ -42,6 +42,7 @@ It consists of 40000 JPG images 256x256 of healthy and diseased crop leaves whic
 - Tomato___healthy
 
 The kaggle dataset was originally divided in train and test but, in orther to create a validation set, it was merged and split later. 
+
 Some of the classes were discarded as being the only representatives of their plant species. These are: 
 - Blueberry___healthy
 - Orange___Haunglongbing_(Citrus_greening)
@@ -52,3 +53,14 @@ Some of the classes were discarded as being the only representatives of their pl
 So the new directory contained 33 classes.
 
 This project consists in the development of a plant disease recognition model using deep convolutional networks. 
+
+The python libraries used were:
+- Tensorflow
+- Keras
+- Matplotlib
+- Seaborn
+- Sklearn
+- Pandas
+- Numpy
+
+The results show a test accuracy of 98% and a loss of 0.
