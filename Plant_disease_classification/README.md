@@ -1,6 +1,6 @@
 ## Plant disease classification
 
-This dataset consists of about 40000 JPG images of healthy and diseased crop leaves which is categorized into 38 different classes:
+This dataset was obtained from Kaggle. Click [here](https://www.kaggle.com/datasets/saroz014/plant-disease) to download. Consists of 40000 JPG images 256x256 of healthy and diseased crop leaves which is categorized into 38 different classes:
 - Apple___Apple_scab
 - Apple___Black_rot
 - Apple___Cedar_apple_rust
@@ -31,8 +31,23 @@ This dataset consists of about 40000 JPG images of healthy and diseased crop lea
 - Strawberry___healthy
 - Tomato___Bacterial_spot
 - Tomato___Early_blight
+- Tomato___Late_blight
+- Tomato___Leaf_Mold
+- Tomato___Septoria_leaf_spot
+- Tomato___Spider_mites Two-spotted_spider_mite
+- Tomato___Target_Spot
+- Tomato___Tomato_Yellow_Leaf_Curl_Virus
+- Tomato___Tomato_mosaic_virus
+- Tomato___healthy
 
-A new directory containing 33 test images is created later for prediction purpose.
+The kaggle dataset was originally divided in train and test but, in orther to create a validation set, it was merged and split later. 
+Some of the classes were discarded as being the only representatives of their plant species. These are: 
+- Blueberry___healthy
+- Orange___Haunglongbing_(Citrus_greening)
+- Raspberry___healthy
+- Soybean___healthy
+- Squash___Powdery_mildew
 
-This project consists in the development of a plant disease recognition model, based on leaf image classification, using deep convolutional networks. 
-The dataset used contains 38 classes that correspond to different diseases or healthy versions of 14 plant species.
+So the new directory contained 33 classes.
+
+This project consists in the development of a plant disease recognition model using deep convolutional networks. 
