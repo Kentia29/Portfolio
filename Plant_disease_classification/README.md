@@ -63,4 +63,4 @@ The python libraries used were:
 - Pandas
 - Numpy
 
-The results show a test accuracy of 98% and a loss of 0.
+The results show a test accuracy of 0.9905 and a loss of 0.0287.
