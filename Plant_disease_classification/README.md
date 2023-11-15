@@ -1,6 +1,7 @@
 ## Plant disease classification
 
-This dataset was obtained from Kaggle. Click [here](https://www.kaggle.com/datasets/saroz014/plant-disease) to download. Consists of 40000 JPG images 256x256 of healthy and diseased crop leaves which is categorized into 38 different classes:
+This dataset was obtained from Kaggle. Click [here](https://www.kaggle.com/datasets/saroz014/plant-disease) to download. 
+It consists of 40000 JPG images 256x256 of healthy and diseased crop leaves which is categorized into 38 different classes:
 - Apple___Apple_scab
 - Apple___Black_rot
 - Apple___Cedar_apple_rust
