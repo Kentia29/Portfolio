@@ -1,4 +1,4 @@
-# HOTSPRING ANALYSIS
+# HOT SPRING ANALYSIS
 
 There is an interesting effect in a hot spring located in Iceland:
 
