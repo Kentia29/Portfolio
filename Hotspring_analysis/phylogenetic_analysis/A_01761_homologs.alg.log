@@ -1,0 +1,129 @@
+IQ-TREE multicore version 2.0.3 for Linux 64-bit built Apr 26 2020
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    gdav (SSE3, 31 GB RAM)
+Command: iqtree -s A_01761_homologs.alg -m LG
+Seed:    77570 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Mon Jan 30 19:29:27 2023
+Kernel:  SSE2 - 1 threads (16 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 16 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file A_01761_homologs.alg ... Fasta format detected
+Alignment most likely contains protein sequences
+Alignment has 27 sequences with 402 columns, 370 distinct patterns
+208 parsimony-informative, 105 singleton sites, 89 constant sites
+                                Gap/Ambiguity  Composition  p-value
+   1  sp|P00456|NIFH1_CLOPA            32.09%    passed     99.79%
+   2  sp|P09553|NIFH3_CLOPA            31.59%    passed     82.61%
+   3  sp|P09554|NIFH5_CLOPA            32.09%    passed     99.97%
+   4  sp|P09555|NIFH6_CLOPA            32.34%    passed    100.00%
+   5  sp|P09552|NIFH2_CLOPA            32.34%    passed    100.00%
+   6  sp|P22548|NIFH4_CLOPA            32.09%    passed     99.97%
+   7  tr|A0A1D9N7I5|A0A1D9N7I5_CLOPA   32.09%    passed     99.97%
+   8  tr|A0A1D9N1X3|A0A1D9N1X3_CLOPA   32.09%    passed     99.98%
+   9  tr|A0A1D9N2X1|A0A1D9N2X1_CLOPA   32.34%    passed    100.00%
+  10  tr|A0A1D9N1N2|A0A1D9N1N2_CLOPA   32.09%    passed     99.97%
+  11  tr|A0A1D9N1X8|A0A1D9N1X8_CLOPA   32.09%    passed     99.79%
+  12  tr|A0A1D9N950|A0A1D9N950_CLOPA   31.59%    passed     82.61%
+  13  tr|D7DT99|D7DT99_METV3           30.85%    passed     86.46%
+  14  sp|P00457|NIFH1_NOSS1            26.62%    passed     84.97%
+  15  sp|O30577|NIFH2_NOSS1            26.12%    passed     61.14%
+  16  tr|G3FD00|G3FD00_NOSS1           74.38%    passed     95.07%
+  17  tr|H7BT35|H7BT35_NOSS1           74.63%    passed     95.04%
+  18  sp|Q8YM62|CHLL_NOSS1             28.36%    passed     23.11%
+  19  tr|Q6M0X1|Q6M0X1_METMP           22.14%    passed     33.92%
+  20  tr|Q6LY48|Q6LY48_METMP           34.83%    failed      3.85%
+  21  sp|P0CW57|NIFH_METMP             31.59%    passed     73.00%
+  22  sp|P26177|BCHX_RHOCB             17.16%    passed      6.66%
+  23  sp|D5ANS3|BCHL_RHOCB             24.38%    passed      6.18%
+  24  sp|D5ANI3|NIFH1_RHOCB            26.62%    passed     98.34%
+  25  tr|D5AKX6|D5AKX6_RHOCB           27.86%    failed      0.00%
+  26  tr|D5ANJ6|D5ANJ6_RHOCB           31.59%    passed     95.51%
+  27  AQUIFEX_01761                    31.59%    passed     73.00%
+WARNING: 2 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                            33.09%  2 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: tr|A0A1D9N1X8|A0A1D9N1X8_CLOPA is identical to sp|P00456|NIFH1_CLOPA but kept for subsequent analysis
+NOTE: tr|A0A1D9N950|A0A1D9N950_CLOPA is identical to sp|P09553|NIFH3_CLOPA but kept for subsequent analysis
+NOTE: tr|A0A1D9N1N2|A0A1D9N1N2_CLOPA is identical to sp|P09554|NIFH5_CLOPA but kept for subsequent analysis
+NOTE: tr|A0A1D9N2X1|A0A1D9N2X1_CLOPA is identical to sp|P09555|NIFH6_CLOPA but kept for subsequent analysis
+NOTE: tr|A0A1D9N7I5|A0A1D9N7I5_CLOPA is identical to sp|P22548|NIFH4_CLOPA but kept for subsequent analysis
+NOTE: AQUIFEX_01761 is identical to sp|P0CW57|NIFH_METMP but kept for subsequent analysis
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.006 seconds
+
+NOTE: 1 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -7334.117
+Optimal log-likelihood: -7121.639
+Parameters optimization took 1 rounds (0.074 sec)
+Computing ML distances based on estimated model parameters... 0.019 sec
+Computing BIONJ tree...
+0.001 seconds
+Log-likelihood of BIONJ tree: -7156.625
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 0.479 second
+Computing log-likelihood of 98 initial trees ... 1.571 seconds
+Current best score: -7121.639
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -7105.016
+Iteration 10 / LogL: -7105.031 / Time: 0h:0m:4s
+Iteration 20 / LogL: -7105.022 / Time: 0h:0m:6s
+Finish initializing candidate tree set (1)
+Current best tree score: -7105.016 / CPU time: 6.133
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+UPDATE BEST LOG-LIKELIHOOD: -7105.016
+Iteration 30 / LogL: -7105.026 / Time: 0h:0m:9s (0h:0m:23s left)
+Iteration 40 / LogL: -7113.573 / Time: 0h:0m:12s (0h:0m:19s left)
+Iteration 50 / LogL: -7113.606 / Time: 0h:0m:15s (0h:0m:16s left)
+UPDATE BEST LOG-LIKELIHOOD: -7105.016
+Iteration 60 / LogL: -7105.024 / Time: 0h:0m:18s (0h:0m:12s left)
+Iteration 70 / LogL: -7106.294 / Time: 0h:0m:21s (0h:0m:9s left)
+Iteration 80 / LogL: -7105.024 / Time: 0h:0m:24s (0h:0m:6s left)
+Iteration 90 / LogL: -7105.026 / Time: 0h:0m:27s (0h:0m:3s left)
+BETTER TREE FOUND at iteration 97: -7105.016
+Iteration 100 / LogL: -7105.816 / Time: 0h:0m:30s (0h:0m:29s left)
+Iteration 110 / LogL: -7114.502 / Time: 0h:0m:33s (0h:0m:26s left)
+Iteration 120 / LogL: -7105.017 / Time: 0h:0m:36s (0h:0m:23s left)
+Iteration 130 / LogL: -7107.130 / Time: 0h:0m:40s (0h:0m:20s left)
+Iteration 140 / LogL: -7105.017 / Time: 0h:0m:43s (0h:0m:17s left)
+Iteration 150 / LogL: -7106.201 / Time: 0h:0m:46s (0h:0m:14s left)
+Iteration 160 / LogL: -7105.615 / Time: 0h:0m:50s (0h:0m:11s left)
+Iteration 170 / LogL: -7105.017 / Time: 0h:0m:53s (0h:0m:8s left)
+Iteration 180 / LogL: -7105.016 / Time: 0h:0m:56s (0h:0m:5s left)
+Iteration 190 / LogL: -7105.018 / Time: 0h:0m:59s (0h:0m:2s left)
+TREE SEARCH COMPLETED AFTER 198 ITERATIONS / Time: 0h:1m:2s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -7105.016
+Optimal log-likelihood: -7105.016
+Parameters optimization took 1 rounds (0.030 sec)
+BEST SCORE FOUND : -7105.016
+Total tree length: 7.263
+
+Total number of iterations: 198
+CPU time used for tree search: 61.541 sec (0h:1m:1s)
+Wall-clock time used for tree search: 62.463 sec (0h:1m:2s)
+Total CPU time used: 61.841 sec (0h:1m:1s)
+Total wall-clock time used: 62.780 sec (0h:1m:2s)
+
+Analysis results written to: 
+  IQ-TREE report:                A_01761_homologs.alg.iqtree
+  Maximum-likelihood tree:       A_01761_homologs.alg.treefile
+  Likelihood distances:          A_01761_homologs.alg.mldist
+  Screen log file:               A_01761_homologs.alg.log
+
+Date and Time: Mon Jan 30 19:30:29 2023

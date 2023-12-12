@@ -1,0 +1,131 @@
+IQ-TREE 2.0.3 built Apr 26 2020
+
+Input file name: A_01423_homologs.alg
+Type of analysis: tree reconstruction
+Random seed number: 689652
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 35 sequences with 1668 amino-acid sites
+Number of constant sites: 408 (= 24.4604% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 408 (= 24.4604% of all sites)
+Number of parsimony informative sites: 595
+Number of distinct site patterns: 1431
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: LG
+
+State frequencies: (model)
+
+Model of rate heterogeneity: Uniform
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -37887.9979 (s.e. 1019.0131)
+Unconstrained log-likelihood (without tree): -11918.5318
+Number of free parameters (#branches + #model parameters): 67
+Akaike information criterion (AIC) score: 75909.9957
+Corrected Akaike information criterion (AICc) score: 75915.6907
+Bayesian information criterion (BIC) score: 76273.0942
+
+Total tree length (sum of branch lengths): 27.5516
+Sum of internal branch lengths: 7.0129 (25.4536% of tree length)
+
+NOTE: Tree is UNROOTED although outgroup taxon 'tr|A0A1D9N7N0|A0A1D9N7N0_CLOPA' is drawn at root
+
++-------------tr|A0A1D9N7N0|A0A1D9N7N0_CLOPA
+|
+|                                                   +---------tr|A0A1D9N929|A0A1D9N929_CLOPA
+|                            +----------------------|
+|                            |                      +---------tr|A0A1D9N5D3|A0A1D9N5D3_CLOPA
+|                    +-------|
+|                    |       |            +----------------tr|A0A1D9N6U0|A0A1D9N6U0_CLOPA
+|                    |       +------------|
+|                    |                    +------------tr|A0A1D9N7Z8|A0A1D9N7Z8_CLOPA
+|                 +--|
+|                 |  |     +-------------------------------tr|Q8YR90|Q8YR90_NOSS1
+|                 |  |  +--|
+|                 |  |  |  +----------------tr|D5AVB4|D5AVB4_RHOCB
+|                 |  +--|
+|                 |     +----------------sp|P09432|NTRC_RHOCB
+|              +--|
+|              |  |     +-------------tr|D5AMR6|D5AMR6_RHOCB
+|              |  |  +--|
+|              |  |  |  |  +----------------------tr|D5ASJ2|D5ASJ2_RHOCB
+|              |  |  |  +--|
+|              |  |  |     +----------------------------tr|D5AMA7|D5AMA7_RHOCB
+|              |  +--|
+|              |     +--------------------tr|D5APH1|D5APH1_RHOCB
+|           +--|
+|           |  +---------------tr|A0A497XQY2|A0A497XQY2_9AQUI
+|        +--|
+|        |  |         +------tr|A0A497XPD5|A0A497XPD5_9AQUI
+|        |  |     +---|
+|        |  |     |   +---tr|O67198|O67198_AQUAE
+|        |  |  +--|
+|        |  |  |  |      +------tr|A0A497XSL5|A0A497XSL5_9AQUI
+|        |  |  |  +------|
+|        |  |  |         +----tr|O66596|O66596_AQUAE
+|        |  +--|
+|        |     |        +---tr|A0A497XWM1|A0A497XWM1_9AQUI
+|        |     |  +-----|
+|        |     |  |     +----tr|O66551|O66551_AQUAE
+|        |     +--|
+|        |        +----------------tr|D5AUA6|D5AUA6_RHOCB
+|     +--|
+|     |  |    +--------------tr|A0A1D9N3I3|A0A1D9N3I3_CLOPA
+|     |  +----|
+|     |       +-------------------tr|A0A1D9N167|A0A1D9N167_CLOPA
+|  +--|
+|  |  |  +----------------tr|A0A1D9MZ79|A0A1D9MZ79_CLOPA
+|  |  +--|
+|  |     +---------------------------tr|O66501|O66501_AQUAE
++--|
+|  |             +-----tr|A0A497XW95|A0A497XW95_9AQUI
+|  |         +---|
+|  |         |   |     +**tr|O67661|O67661_AQUAE
+|  |         |   +-----|
+|  |         |         +**AQUIFEX_01423
+|  |      +--|
+|  |      |  |                   +--sp|D5ARW9|NIFA_RHOCB
+|  |      |  |  +----------------|
+|  |      |  |  |                +--tr|D5ANH8|D5ANH8_RHOCB
+|  |      |  +--|
+|  |      |     +--------------tr|D5ANJ5|D5ANJ5_RHOCB
+|  |  +---|
+|  |  |   |      +--tr|A0A497XQD2|A0A497XQD2_9AQUI
+|  |  |   +------|
+|  |  |          +--tr|O66591|O66591_AQUAE
+|  +--|
+|     |  +--------------tr|A0A497XPP3|A0A497XPP3_9AQUI
+|     +--|
+|        +------tr|O66502|O66502_AQUAE
+|
++-------------tr|A0A1D9N8L1|A0A1D9N8L1_CLOPA
+
+Tree in newick format:
+
+(tr|A0A1D9N7N0|A0A1D9N7N0_CLOPA:0.6685941779,(((((((((tr|A0A1D9N929|A0A1D9N929_CLOPA:0.4820989939,tr|A0A1D9N5D3|A0A1D9N5D3_CLOPA:0.4888990525):1.0924958698,(tr|A0A1D9N6U0|A0A1D9N6U0_CLOPA:0.8122119855,tr|A0A1D9N7Z8|A0A1D9N7Z8_CLOPA:0.6333156909):0.6217804734):0.3958513223,((tr|Q8YR90|Q8YR90_NOSS1:1.5067189936,tr|D5AVB4|D5AVB4_RHOCB:0.7826037473):0.0691066967,sp|P09432|NTRC_RHOCB:0.8180729626):0.1710524067):0.1088820805,((tr|D5AMR6|D5AMR6_RHOCB:0.6755355019,(tr|D5ASJ2|D5ASJ2_RHOCB:1.0885173822,tr|D5AMA7|D5AMA7_RHOCB:1.3703263295):0.0887910329):0.1833093952,tr|D5APH1|D5APH1_RHOCB:0.9951891317):0.1332406801):0.0969123455,tr|A0A497XQY2|A0A497XQY2_9AQUI:0.7680169220):0.0604058471,(((tr|A0A497XPD5|A0A497XPD5_9AQUI:0.3261518165,tr|O67198|O67198_AQUAE:0.1998914536):0.1934038967,(tr|A0A497XSL5|A0A497XSL5_9AQUI:0.3233536297,tr|O66596|O66596_AQUAE:0.2699465854):0.3557804252):0.1243312477,((tr|A0A497XWM1|A0A497XWM1_9AQUI:0.2058463552,tr|O66551|O66551_AQUAE:0.2614332729):0.2960317199,tr|D5AUA6|D5AUA6_RHOCB:0.8269266405):0.1074792857):0.0647251670):0.1274497111,(tr|A0A1D9N3I3|A0A1D9N3I3_CLOPA:0.7291072255,tr|A0A1D9N167|A0A1D9N167_CLOPA:0.9282708211):0.2402489431):0.1306826833,(tr|A0A1D9MZ79|A0A1D9MZ79_CLOPA:0.8180452481,tr|O66501|O66501_AQUAE:1.3133907782):0.1404129146):0.0927106295,((((tr|A0A497XW95|A0A497XW95_9AQUI:0.3111518416,(tr|O67661|O67661_AQUAE:0.0000010000,AQUIFEX_01423:0.0000010000):0.2910169438):0.2294782184,((sp|D5ARW9|NIFA_RHOCB:0.0121925288,tr|D5ANH8|D5ANH8_RHOCB:0.0078843361):0.8122648271,tr|D5ANJ5|D5ANJ5_RHOCB:0.7303220660):0.1295354400):0.0818850004,(tr|A0A497XQD2|A0A497XQD2_9AQUI:0.0753487454,tr|O66591|O66591_AQUAE:0.0820197382):0.3261055235):0.1889525478,(tr|A0A497XPP3|A0A497XPP3_9AQUI:0.7080609590,tr|O66502|O66502_AQUAE:0.3620993705):0.0478292837):0.1366701894):0.1650741877,tr|A0A1D9N8L1|A0A1D9N8L1_CLOPA:0.6661538184);
+
+TIME STAMP
+----------
+
+Date and time: Mon Jan 30 18:20:27 2023
+Total CPU time used: 318.071 seconds (0h:5m:18s)
+Total wall-clock time used: 320.244 seconds (0h:5m:20s)
+
