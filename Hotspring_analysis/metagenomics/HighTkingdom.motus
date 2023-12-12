@@ -1,0 +1,8 @@
+# git tag version 2.5.1 |  motus version 2.5.1 | map_tax 2.5.1 | gene database: nr2.5.1 | calc_mgc 2.5.1 -y insert.scaled_counts -l 75 | calc_motu 2.5.1 -k kingdom -C no_CAMI -g 3 -c | taxonomy: ref_mOTU_2.5.1 meta_mOTU_2.5.1
+# call: python /home/miniconda3/bin/../share/motus-2.5.1//motus profile -f /home/laura.gmartinez/final_project/metagenomics-hotspring-hightemp.1.fq.gz -r /home/laura.gmartinez/final_project/metagenomics-hotspring-hightemp.2.fq.gz -o HighTkingdom.motus -t 20 -k kingdom -c
+#consensus_taxonomy	unnamed sample
+Bacteria	2909
+Archaea	88
+Eukaryota	0
+Unknown cellular organism	0
+-1	4
