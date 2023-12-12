@@ -207,7 +207,7 @@ samples merged, the SNP T\>G has 213 of quality and 249 in coverage; and
 with the samples separated, T\>G has a quality of 943 and a coverage of
 682.
 
-`cp ~/Hotspring_analysis/sequencing_files/genome.gff ~/``Hotspring_analysis``/genome_analysis/genome.gff`
+``` cp ~/Hotspring_analysis/sequencing_files/genome.gff ~/``Hotspring_analysis``/genome_analysis/genome.gff ```
 
 `cat genome.gff | awk -F "\t" '{ if ((1264965 <= $5 ) && (1264965 >= $4 )) print $0 }'`
 
@@ -250,7 +250,7 @@ showing the altered genes, their description, name, p-val, p-adj and
 fold change:
 
 ![**Table 1.** Differential
-expression](Images/tabla.PNG "Differential expression")
+expression](Images/tabla.png "Differential expression")
 
 AQUIFEX_01423, AQUIFEX_01759 and AQUIFEX_01761 are over expressed under
 high-heat conditions, while AQUIFEX_01754 and AQUIFEX_01760 are under
