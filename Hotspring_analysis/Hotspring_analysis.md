@@ -156,7 +156,7 @@ bcftools view -H calls.bcf | sort -k6,6gr
 
 The variant with the best quality, the SNP T\>G is in position 1264965 of the *Aquifex aeolicus* genome, so the gene that receives the variant is nifA. Using Integrative Genomics Viewer (IGV), it can be shown the mutation site (Figure 1).
 
-![](Images/igv_snapshot.png "nifA mutation"){alt="Figure 1. nifA mutation. IGV visualization"}
+![](Images/igv_snapshot.png "nifA mutation")
 
 **Figure 1.** nifA mutation IGV visualization
 
